@@ -18,5 +18,5 @@ plt.xticks(_x,_xlabel,rotation=60)
 # 添加图列
 plt.legend()
 # 网格
-plt.grid(alpha=0.4)
+plt.grid(alpha=0.4,)
 plt.show()
