@@ -17,6 +17,6 @@ t4 = t3.astype('int8')
 print(t4)
 print(t4.dtype)
 
-
+#小数位数
 t5 = np.round(t3,2)
 print(t5)
