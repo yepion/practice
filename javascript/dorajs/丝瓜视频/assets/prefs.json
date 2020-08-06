@@ -1,0 +1,12 @@
+{
+    "baseurl":{
+        "type":"string",
+        "default":"itrafficnet.com",
+        "title":"域名"
+    },
+    "uuid":{
+        "type":"string",
+        "default":"724b9c9fdd5e7b6f",
+        "title":"uuid"
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "dorajs-text",
+  "displayName": "text",
+  "version": "1.0.0",
+  "uuid": "61719dae-0338-477e-9f0b-00be49fc2209",
+  "description": "${description}",
+  "icon": "/assets/icon.png",
+  "prefs": "assets/prefs.json",
+  "main": "main.js",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "yepion"
+  },
+  "engineStrick": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "updates": "",
+  "contributes": {
+    "search": null
+  },
+  "homepage": "",
+  "engines": {
+    "dora": ">=1.9.0"
+  },
+  "keywords": [
+    "Dora.js"
+  ],
+  "dependencies": {}
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/themes/vue.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .markdown-section {
+      padding: 0;
+    }
+
+    .run-button {
+      background-color: #42B983;
+      border: none;
+      color: #fff;
+      border-radius: 2px;
+      margin-left: 3px;
+      outline: none;
+      display: block;
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      font-size: 16px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="app">加载中...</div>
+  <script>
+    window.$docsify = {
+      search: {
+        placeholder: '搜索',
+        paths: "auto",
+        noData: '找不到结果',
+        depth: 6,
+      },
+      loadSidebar: true,
+      maxLevel: 4,
+      subMaxLevel: 2,
+      auto2top: true,
+      homepage: './README.md',
+      coverpage: false,
+      executeScript: true,
+      loadNavbar: false,
+      mergeNavbar: false,
+      pagination: {
+        previousText: '上一章节',
+        nextText: '下一章节',
+        crossChapter: true
+      },
+      'flexible-alerts': {
+        style: 'flat'
+      },
+      scrollToTop: {
+        auto: true,
+        text: 'Top',
+        right: 20,
+        bottom: 20,
+        offset: 500
+      },
+
+    }
+
+  </script>
+  <script src="./assets/js/docsify.min.js"></script>
+  <script src="./assets/js/search.min.js"></script>
+  <script src="./assets/js/prism-json.min.js"></script>
+  <script src="./assets/js/docsify-pagination.min.js"></script>
+  <script src="./assets/js/zoom-image.min.js"></script>
+  <script src="./assets/js/docsify-plugin-flexible-alerts.min.js"></script>
+  <script src="./assets/js/docsify-copy-code.min.js"></script>
+  <script src="./assets/js/emoji.min.js"></script>
+  <script src="./assets/js/docsify-scroll-to-top.min.js"></script>
+  <script>
+    function sendDoraEvent(event, data = "") {
+      try {
+        $dora.sendEvent(event, data)
+
+      } catch (error) {
+
+      }
+    }
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "dorajs-xiang-jiao-shi-pin",
+  "displayName": "香蕉视频",
+  "version": "1.0.5",
+  "uuid": "7c59cec8-feab-4700-a8e2-8f4abf932e5a",
+  "description": "dnmd，都是老色批了",
+  "icon": "/assets/icon.jpg",
+  "prefs": "assets/prefs.json",
+  "main": "main.js",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "yepion"
+  },
+  "engineStrick": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "updates": "",
+  "contributes": {
+    "search": null
+  },
+  "homepage": "",
+  "engines": {
+    "dora": ">=1.7.0"
+  },
+  "keywords": [
+    "Dora.js"
+  ],
+  "dependencies": {}
+}

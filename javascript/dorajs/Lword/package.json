@@ -1,0 +1,35 @@
+{
+  "name": "dorajs-lword",
+  "displayName": "Lword",
+  "version": "1.0.0",
+  "uuid": "4f71ed31-f8e5-46ea-8e55-82dbe2112bcc",
+  "description": "直接套原网站",
+  "icon": "/assets/icon.png",
+  "prefs": "assets/prefs.json",
+  "main": "main.js",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Bin",
+    "fullName": "",
+    "email": ""
+  },
+  "engineStrick": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "updates": "",
+  "contributes": {},
+  "homepage": "https://lword.top/",
+  "engines": {
+    "dora": ">=1.1.0"
+  },
+  "keywords": [
+    "Dora.js"
+  ],
+  "dependencies": {},
+  "categories": [
+    "tool"
+  ],
+  "donates": {}
+}

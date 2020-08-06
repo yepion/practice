@@ -1,0 +1,31 @@
+{
+  "name": "dorajs-zhi-xing-li-gong",
+  "displayName": "知行理工",
+  "version": "1.0.0",
+  "uuid": "bc3cf781-d3f8-4666-932f-5996b36dbe92",
+  "description": "${description}",
+  "icon": "/assets/icon.png",
+  "prefs": "assets/prefs.json",
+  "main": "main.js",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "yepion"
+  },
+  "engineStrick": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "updates": "",
+  "contributes": {
+    "search": null
+  },
+  "homepage": "",
+  "engines": {
+    "dora": ">=1.9.0"
+  },
+  "keywords": [
+    "Dora.js"
+  ],
+  "dependencies": {}
+}

@@ -1,0 +1,35 @@
+{
+  "name": "dorajs-chui-xue-man-hua",
+  "displayName": "吹雪漫画",
+  "version": "1.0.0",
+  "uuid": "ea8f5afb-3007-4cdd-a966-d377207227a8",
+  "description": "${description}",
+  "icon": "/assets/icon.png",
+  "prefs": "assets/prefs.json",
+  "main": "main.js",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "yepion"
+  },
+  "engineStrick": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "updates": "",
+  "contributes": {
+    "search": null
+  },
+  "homepage": "",
+  "engines": {
+    "dora": ">=1.9.0"
+  },
+  "keywords": [
+    "Dora.js"
+  ],
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "iconv-lite": "^0.6.2"
+  }
+}

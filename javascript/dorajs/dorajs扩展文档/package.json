@@ -1,0 +1,33 @@
+{
+  "name": "dorajs-docs-plus",
+  "displayName": "Dora.js扩展文档",
+  "version": "1.0.0",
+  "uuid": "d5b3332b-8726-4c9d-9934-4aebb50ff59f",
+  "description": "修改版docs官方文档 支持离线查看 实时运行 API搜索",
+  "icon": "/assets/icon.png",
+  "prefs": "assets/prefs.json",
+  "main": "main.js",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "wlor0623"
+  },
+  "engineStrick": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "updates": "",
+  "contributes": {
+    "search": null
+  },
+  "homepage": "",
+  "engines": {
+    "dora": ">=1.8.1"
+  },
+  "keywords": [
+    "Dora.js"
+  ],
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

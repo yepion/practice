@@ -1,0 +1,42 @@
+{
+  "name": "dorajs-bainianmh",
+  "displayName": "百年漫画",
+  "version": "1.0.4",
+  "uuid": "c14e7218-3f41-4550-b917-6dd2eebe5fd0",
+  "description": "https://www.bnmanhua.com",
+  "icon": "assets/icon.svg",
+  "prefs": "assets/prefs.json",
+  "main": "main.js",
+  "license": "UNLICENSED",
+  "updates": "",
+  "author": {
+    "name": "chegege",
+    "fullName": "",
+    "email": ""
+  },
+  "engineStrick": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "contributes": {
+    "search": "tag"
+  },
+  "homepage": "",
+  "engines": {
+    "dora": ">=1.6.0"
+  },
+  "keywords": [
+    "Dora.js"
+  ],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  },
+  "categories": [
+    "cartoon"
+  ],
+  "donates": {
+    "wechat": "assets/wechat.png",
+    "alipay": "assets/alipay.png"
+  }
+}

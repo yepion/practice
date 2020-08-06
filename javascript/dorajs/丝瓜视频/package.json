@@ -1,0 +1,37 @@
+{
+  "name": "dorajs-sigua",
+  "displayName": "丝瓜视频",
+  "version": "1.0.5",
+  "uuid": "4752ae2c-4bb4-44a2-9c17-fcd57cde8e3f",
+  "description": "国内可用，速度超快",
+  "icon": "/assets/icon.png",
+  "prefs": "assets/prefs.json",
+  "main": "main.js",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Bin",
+    "fullName": "",
+    "email": ""
+  },
+  "engineStrick": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "updates": "",
+  "contributes": {},
+  "homepage": "",
+  "engines": {
+    "dora": ">=1.8.1"
+  },
+  "keywords": [
+    "Dora.js"
+  ],
+  "dependencies": {},
+  "categories": [
+    "video"
+  ],
+  "donates": {
+    "wechat": "assets/wechat.png"
+  }
+}
