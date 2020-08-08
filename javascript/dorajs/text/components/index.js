@@ -3,8 +3,8 @@ module.exports = {
     tabMode: 'fixed',
     fetch() {
       return [{
-        title: '悟空',
-        image: $icon('movie'),
+        title: 'text',
+        image: $icon('home'),
         route: $route('first')
       }, {
         title: 'kong',
