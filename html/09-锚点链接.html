@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 锚点链接，一个页面中的锚点：快速定位到页面中的某个位置 -->
+    <a href="#download">下载Python编辑</a><br>
+    <a href="#devolop">发展历程编辑</a><br>
+    <a href="#style">风格编辑</a>
+
+    <h4>控制语句</h4>
+    if语句，当条件成立时运行语句块。经常与else, elif(相当于else if) 配合使用。
+    for语句，遍历列表、字符串、字典、集合等迭代器，依次处理迭代器中的每个元素。
+    while语句，当条件为真时，循环运行语句块。
+    try语句，与except,finally配合使用处理在程序运行中出现的异常情况。
+    class语句，用于定义类型。
+    def语句，用于定义函数和类型的方法。
+    pass语句，表示此行为空，不运行任何操作。
+    assert语句，用于程序调试阶段时测试运行条件是否满足。
+    with语句，Python2.6以后定义的语法，在一个场景中运行语句块。比如，运行语句块前加密，然后在语句块运行退出后解密。
+    yield语句，在迭代器函数内使用，用于返回一个元素。自从Python 2.5版本以后。这个语句变成一个运算符。
+    raise语句，制造一个错误。
+    import语句，导入一个模块或包。
+    from … import语句，从包导入模块或从模块导入某个对象。
+    import … as语句，将导入的对象赋值给一个变量。
+    in语句，判断一个对象是否在一个字符串/列表/元组里。
+<h4 id="download">下载Python编辑</h4>
+在您开始之前，你的计算机需要Python，但您可能不需要下载它。首先检查(在同级目录下在命令行窗口输入python)有没有安装Python。如果你看到了一个Python解释器的响应，那么就能在它的显示窗口中得到一个版本号。通常的版本都可以做到Python的向前兼容。
+如果您需要安装， 您不妨下载最近稳定的版本。 就是那个以没有被标记作为alpha或Beta发行的最高的版本。目前最稳定的版本是Python3.0以上 [3] 
+如果你使用的操作系统是Windows：当前最稳定的Windows版本下载是"Python 3.8.3 for Windows"
+如果你使用的是Mac，MacOS 10.2 (Jaguar), 10.3 (Panther) and 10.4 (Tiger)已经集成安装了Python，但是你大概需要安装最近通用的构架(build)。
+对于Red Hat，安装python2和python2-devel包。
+对于Debian，安装python2.5和python2.5-dev包。
+<h4 id="devolop">发展历程编辑</h4>
+自从20世纪90年代初Python语言诞生至今，它已被逐渐广泛应用于系统管理任务的处理和Web编程。
+Python的创始人为荷兰人吉多·范罗苏姆 [4]  （Guido van Rossum）。1989年圣诞节期间，在阿姆斯特丹，Guido为了打发圣诞节的无趣，决心开发一个新的脚本解释程序，作为ABC 语言的一种继承。之所以选中Python（大蟒蛇的意思）作为该编程语言的名字，是取自英国20世纪70年代首播的电视喜剧《蒙提.派森的飞行马戏团》（Monty Python's Flying Circus）。
+ABC是由Guido参加设计的一种教学语言。就Guido本人看来，ABC 这种语言非常优美和强大，是专门为非专业程序员设计的。但是ABC语言并没有成功，究其原因，Guido 认为是其非开放造成的。Guido 决心在Python 中避免这一错误。同时，他还想实现在ABC 中闪现过但未曾实现的东西。
+就这样，Python在Guido手中诞生了。可以说，Python是从ABC发展起来，主要受到了Modula-3（另一种相当优美且强大的语言，为小型团体所设计的）的影响。并且结合了Unix shell和C的习惯。
+Python [5]  已经成为最受欢迎的程序设计语言之一。自从2004年以后，python的使用率呈线性增长。Python 2于2000年10月16日发布，稳定版本是Python 2.7。Python 3于2008年12月3日发布，不完全兼容Python 2。 [4]  2011年1月，它被TIOBE编程语言排行榜评为2010年度语言。 [6] 
+由于Python语言的简洁性、易读性以及可扩展性，在国外用Python做科学计算的研究机构日益增多，一些知名大学已经采用Python来教授程序设计课程。例如卡耐基梅隆大学的编程基础、麻省理工学院的计算机科学及编程导论就使用Python语言讲授。众多开源的科学计算软件包都提供了Python的调用接口，例如著名的计算机视觉库OpenCV、三维可视化库VTK、医学图像处理库ITK。而Python专用的科学计算扩展库就更多了，例如如下3个十分经典的科学计算扩展库：NumPy、SciPy和matplotlib，它们分别为Python提供了快速数组处理、数值运算以及绘图功能。因此Python语言及其众多的扩展库所构成的开发环境十分适合工程技术、科研人员处理实验数据、制作图表，甚至开发科学计算应用程序。2018年3月，该语言作者在邮件列表上宣布Python 2.7将于2020年1月1日终止支持。用户如果想要在这个日期之后继续得到与Python 2.7有关的支持，则需要付费给商业供应商。 [7] 
+<h4 id="style">风格编辑</h4>
+Python在设计上坚持了清晰划一的风格，这使得Python成为一门易读、易维护，并且被大量用户所欢迎的、用途广泛的语言。
+设计者开发时总的指导思想是，对于一个特定的问题，只要有一种最好的方法来解决就好了。这在由Tim Peters写的Python格言（称为The Zen of Python）里面表述为：There should be one-- and preferably only one --obvious way to do it. 这正好和Perl语言（另一种功能类似的高级动态语言）的中心思想TMTOWTDI（There's More Than One Way To Do It）完全相反。
+Python的作者有意的设计限制性很强的语法，使得不好的编程习惯（例如if语句的下一行不向右缩进）都不能通过编译。其中很重要的一项就是Python的缩进规则。
+一个和其他大多数语言（如C）的区别就是，一个模块的界限，完全是由每行的首字符在这一行的位置来决定的（而C语言是用一对花括号{}来明确的定出模块的边界的，与字符的位置毫无关系）。这一点曾经引起过争议。因为自从C这类的语言诞生后，语言的语法含义与字符的排列方式分离开来，曾经被认为是一种程序语言的进步。不过不可否认的是，通过强制程序员们缩进（包括if，for和函数定义等所有需要使用模块的地方），Python确实使得程序更加清晰和美观。
+<br>
+<br>
+<div>类型
+    Python采用动态类型系统。在编译的时候，Python不会检查对象是否拥有被调用的方法或者属性，而是直至运行时，才做出检查。所以操作对象时可能会抛出异常。不过，虽然Python采用动态类型系统，它同时也是强类型的。Python禁止没有明确定义的操作，比如数字加字符串。
+    与其它面向对象语言一样，Python允许程序员定义类型。构造一个对象只需要像函数一样调用类型即可，比如，对于前面定义的Fish类型，使用Fish()。类型本身也是特殊类型type的对象(type类型本身也是type对象)，这种特殊的设计允许对类型进行反射编程。
+    Python内置丰富的数据类型。与Java、C++相比，这些数据类型有效地减少代码的长度。下面这个列表简要地描述了Python内置数据类型(适用于Python 3.x)：
+    类型
+    描述
+    例子
+    备注
+    str（string/字符串）
+    一个由字符组成的不可更改的有序串行。
+    'Wikipedia'
+    "Wikipedia"
+    """Spanning
+    multiple
+    lines"""
+    在Python 3.x里，字符串由Unicode字符组成
+    bytes（字节）
+    一个由字节组成的不可更改的有序串行。
+    b'Some ASCII'
+    b"Some ASCII"
+    在Python 2.x里，bytes为str的一种
+    list（列表）
+    可以包含多种类型的可改变的有序串行
+    [4.0, 'string', True]
+    tuple（元组）
+    可以包含多种类型的不可改变的有序串行
+    (4.0, 'string', True)
+    set, frozenset
+    与数学中集合的概念类似。无序的、每个元素唯一。
+    {4.0, 'string', True}
+    frozenset([4.0, 'string', True])
+    dict（字典）
+    一个可改变的由键值对组成的无序串行。
+    {'key1': 1.0, 3: False}
+    int（整数）
+    精度不限的整数
+    42
+    float（浮点数）
+    浮点数。精度与系统相关。
+    3.1415927
+    complex
+    复数
+    3+2.7j
+    bool
+    逻辑值。只有两个值：真、假
+    True
+    False
+    builtin_function_or_method
+    自带的函数，不可更改也不可增加
+    print
+    input
+    type（类型）
+    显示某个值的类型，用type(x)获得
+    type(1) ->
+    type(‘1’) ->
+    range
+    按顺序排列的数
+    range(10)
+    ......list(range(10))->[0,1,2,3,4,5,6,7,8,9]
+    range(1,10)
+    ......list(range(1,10))->[1,2,3,4,5,6,7,8,9]
+    range(1,10,2)
+    ......list(range(1,10,2))->[1,3,5,7,9]
+    在Python 2.x中，range为builtin_function_or_method，获得的数为list
+    除了各种数据类型，Python语言还用类型来表示函数、模块、类型本身、对象的方法、编译后的Python代码、运行时信息等等。因此，Python具备很强的动态性。
+    数学运算
+    Python使用与C、Java类似的运算符，支持整数与浮点数的数学运算。同时还支持复数运算与无穷位数（实际受限于计算机的能力）的整数运算。除了求绝对值函数abs()外，大多数数学函数处于math和cmath模块内。前者用于实数运算，而后者用于复数运算。使用时需要先导入它们，比如：
+    >>> import math
+    >>> print(math.sin(math.pi/2))
+    1.0
+    fractions模块用于支持分数运算；decimal模块用于支持高精度的浮点数运算。
+    Python定义求余运行a % b的值处于开区间[0, b)内，如果b是负数，开区间变为(b, 0]。这是一个很常见的定义方式。不过其实它依赖于整除的定义。为了让方程式：b * (a // b) + a % b = a恒真，整除运行需要向负无穷小方向取值。比如7 // 3的结果是2，而(-7) // 3的结果却是-3。这个算法与其它很多编程语言不一样，需要注意，它们的整除运算会向0的方向取值。
+    Python允许像数学的常用写法那样连着写两个比较运行符。比如a < b < c与a < b and b < c等价。C++的结果与Python不一样，首先它会先计算a < b，根据两者的大小获得0或者1两个值之一，然后再与c进行比较。
+    </div>
+</body>
+</html>
