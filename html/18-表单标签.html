@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 应用场景：收集用户信息 -->
+
+    <!-- action:提交到后台的url地址，method：提交方式，name:表格名称 -->
+    <form action="" method="POST" name="demo1" >
+        <!-- type类型，name名称，value默认显示的内容并传给后端人员 -->
+        name: <input type="text" name="name" value="请输入姓名" > <br>
+        <!-- maxlength最大字符长度 -->
+        password: <input type="password" name="pwd" maxlength="4"> <br>
+        <!-- 单选框 radio， checked默认选中-->
+        sexy: 男<input type="radio" name="sexy" checked="checked"> 女<input type="radio" name="sexy"> <br>
+        <!-- 复选框 checkbox-->
+        hobby: 吃饭 <input type="checkbox" name="hobby"> 睡觉 <input type="checkbox" name="hobby"> <br>
+
+        <input type="submit" value="注册">
+        <input type="reset"> <br>
+
+        <!-- button按钮和js配合，比如发送验证码 -->
+        <input type="button" value="发送短信"> <br>
+        <!-- file上传文件 -->
+        <input type="file">
+
+    </form>
+</body>
+</html>
