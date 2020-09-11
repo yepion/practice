@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2 {
+            font-family: "微软雅黑";
+        }
+        body {
+            /* 字体 */
+            font-family: "Arial", "宋体", "微软雅黑";
+            /* 字体大小 */
+            font-size: 20px;
+        }
+        /* 标题比较特殊，不能用上面的方法修改字体大小，必须单独操作 */
+        /* 可以直接用body标签改变所有字体 */
+        h2 {
+            font-size: 22px;
+        }
+        /* 字体加粗 */
+        .bold {
+            /* font-weight: bold; */
+            /* 实际开发中更喜欢用数字 */
+            font-weight: 700;
+        }
+        /* 斜体 */
+        .italic {
+            font-style: italic;
+        }
+        /* 使斜体变不倾斜 */
+        em {
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h2>静夜思</h2>
+    <p class="bold italic">床前明月光，疑是地上霜。</p>
+    <p>举头望明月，低头思故乡。</p>
+    <em>斜体</em>
+</body>
+</html>
