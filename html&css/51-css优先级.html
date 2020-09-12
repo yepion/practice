@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            color: red;
+        }
+        .nav {
+            /* 优先!important> style> id> class> 元素> 继承  */
+            color: pink!important;
+        }
+        #demo {
+            color: green;
+        }
+        /* 注意，类选择在这里对li是继承选择器 */
+        .father {
+            color: red;
+        }
+        li {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav" id="demo">优先级</div>
+    
+    <ul class="father">
+        <li>warning</li>
+    </ul>
+</body>
+</html>
