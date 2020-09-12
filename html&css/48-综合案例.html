@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div a {
+            /* 行内块元素 */
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            /* background-color: royalblue; */
+            /* 文字 */
+            color: skyblue;
+            text-decoration: none;
+            text-align: center;
+            line-height: 100px;
+
+        }
+
+        div .a {
+            /* background-color: red; */
+            background: red;
+        }
+
+        div .a:hover {
+            /* background: 背景颜色 背景图片地址 背景平铺 背景图像滚动 背景图片位置 */
+            background: transparent url(res/images/1.jpg) no-repeat ;
+            background-size: cover;
+        }
+
+        div .b {
+            background-color: rgb(27, 14, 14);
+        }
+        div .b:hover {
+            background: transparent url(res/images/bg.jpg) no-repeat;
+            background-size: cover;
+        }
+
+        div .c {
+            background-color: orange;
+        }
+        div .c:hover {
+            background: transparent url(res/images/2.png) no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <a href="#" class="a">背景</a>
+        <a href="#" class="b">背景</a>
+        <a href="#" class="c">背景</a>
+    </div>
+</body>
+
+</html>
