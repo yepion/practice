@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .father {
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            margin-top: 10px;
+            /* 解决塌陷的方法1。给父元素添加border */
+            /* border: 1px solid transparent ; */
+            /* 方法2.添加padding */
+            /* padding: 1px; */
+            /* 方法3. */
+            overflow: hidden;
+        }
+        .son {
+            width: 50px;
+            height: 50px;
+            background-color: skyblue;
+            margin-top: 50px;
+            /*  */
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="son"></div>
+    </div>
+</body>
+</html>
