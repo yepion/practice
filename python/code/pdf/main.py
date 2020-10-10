@@ -8,7 +8,7 @@ def split_pdf(infn, outfn):
     print(page_count)
     # 将 pdf 第五页之后的页面，输出到一个新的文件
     # for i in range(5,page_count):
-    for i in range(36,46):
+    for i in range(300,308):
         pdf_output.addPage(pdf_input.getPage(i))
     pdf_output.write(open(outfn, 'wb'))
     print("ok")
