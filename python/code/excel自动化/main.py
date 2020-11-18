@@ -48,7 +48,7 @@ def main():
     sh = wb.sheet_by_index(0)
     for i in range(1, sh.nrows):
         rows = sh.row_values(i)#应该写入的每一行
-        # print(str(rows[1])[:-2])-
+        # print(str(rows[1])[:-2])
         for j in read():#j读取的一行数据
             print(j)
             if(j[0]==str(rows[1])[:-2]):
